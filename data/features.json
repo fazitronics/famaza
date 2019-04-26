@@ -1,0 +1,21 @@
+{
+  "title" : "Features",
+  "description" : "We're best at our services",
+  "content" : [
+    {
+      "icon" : "bell",
+      "title" : "Craftmanship",
+      "description" : "Our products are thoughtfully designed and carefully crafted to make your home elegant, cosy and relaxing."
+    },
+    {
+      "icon" : "rocket",
+      "title" : "Modern and Elegant",
+      "description" : "Our products are modern and elegant in design. We love our products and hope you will too."
+    },
+    {
+      "icon" : "clock",
+      "title" : "Moneyback Guarantee",
+      "description" : "We provide full refund or replacement if you are not happy with the item or the item is faulty."
+    }
+  ]
+}

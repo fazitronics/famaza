@@ -1,0 +1,18 @@
+{
+  "brand" : "FAMAZA",
+  "logo" : "logo.svg",
+  "links" : [
+    {
+      "title" : "Home",
+      "href" : ""
+    },
+    {
+      "title" : "Features",
+      "href" : "#features"
+    },
+    {
+      "title" : "Contact",
+      "href" : "#contact"
+    }
+  ]
+}

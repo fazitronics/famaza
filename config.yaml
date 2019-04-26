@@ -1,0 +1,18 @@
+baseURL : "/"
+languageCode : en-us
+title : Famaza - Eligant Home Decor
+theme : hugo-sodium-theme
+
+taxonomies:
+  category: categories
+  tag: tags
+
+params:
+  social:
+    facebook: uicardio
+    instagram: uicardio
+    twitter: uicardio
+
+  scripts:
+    googleanalytics:
+    disqus:
