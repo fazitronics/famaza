@@ -6,16 +6,17 @@ then
     exit 1;
 fi
 
-echo "Sync with remote gh-pages"
-git checkout gh-pages
-git pull origin gh-pages
-git checkout master
-
 echo "Deleting old publication"
 rm -rf public
 mkdir public
 git worktree prune
 rm -rf .git/worktrees/public/
+
+echo "Sync with remote gh-pages"
+git checkout gh-pages
+git pull origin gh-pages
+git checkout master
+
 
 git submodule update -f
 
