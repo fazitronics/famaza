@@ -1,15 +1,13 @@
 #!/bin/sh
 
-//DIR=$(dirname "$0")
-
-//echo "Entering directory ${DIR}"
-//cd $DIR/..
-
 if [[ $(git status -s) ]]
 then
     echo "The working directory is dirty. Please commit any pending changes."
     exit 1;
 fi
+
+# Commit to master
+git push origin master
 
 # Commit changes.
 msg="rebuilding site `date`"
@@ -43,8 +41,3 @@ git worktree remove public
 
 # Come Back up to the Project Root
 cd ..
-
-# Commit to master
-# git add .
-# git commit -m "$msg"
-# git push origin master
