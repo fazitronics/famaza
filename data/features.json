@@ -1,6 +1,6 @@
 {
   "title" : "Our Service",
-  "description" : "Customer first without compromise.",
+  "description" : "Customer first, without compromise.",
   "content" : [
     {
       "icon" : "bell",
@@ -9,13 +9,13 @@
     },
     {
       "icon" : "rocket",
-      "title" : "Modern and Elegant",
+      "title" : "Modern and elegant",
       "description" : "Our products are modern and elegant in design. We love our products and hope you will too."
     },
     {
       "icon" : "clock",
-      "title" : "Moneyback Guarantee",
-      "description" : "We provide full refund or replacement if you are not happy with the item or the item is faulty."
+      "title" : "Moneyback guarantee",
+      "description" : "We provide full refund and/or replacement if you are not happy with the item or the item is faulty."
     }
   ]
 }
