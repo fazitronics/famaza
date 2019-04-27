@@ -3,17 +3,17 @@
   "description" : "Customer first without compromise.",
   "content" : [
     {
-      "icon" : "bell",
+      "icon" : "cubes",
       "title" : "Craftsmanship",
       "description" : "Our products are thoughtfully designed and carefully crafted to make your home elegant, cosy and relaxing."
     },
     {
-      "icon" : "rocket",
+      "icon" : "gem",
       "title" : "Modern and elegant",
       "description" : "Our products are modern and elegant in design. We love our products and hope you will too."
     },
     {
-      "icon" : "clock",
+      "icon" : "handshake",
       "title" : "Moneyback guarantee",
       "description" : "We provide full refund and/or replacement if you are not happy with the item or the item is faulty."
     }
