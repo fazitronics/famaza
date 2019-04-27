@@ -1,0 +1,3 @@
+[submodule "theme/hugo-sodium-theme"]
+	path = theme/hugo-sodium-theme
+	url = git@github.com:uicardiodev/hugo-sodium-theme.git

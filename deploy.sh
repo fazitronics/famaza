@@ -38,6 +38,4 @@ git push origin gh-pages
 cd ..
 
 # Commit to master
- git add .
- git commit -m "$msg"
  git push origin master
