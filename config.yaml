@@ -1,6 +1,6 @@
 baseURL : "/"
 languageCode : en-us
-title : Famaza - Eligant Home Decor
+title : Famaza - Eligant Home and Bathroom Accessories
 theme : hugo-sodium-theme
 
 taxonomies:
@@ -9,9 +9,9 @@ taxonomies:
 
 params:
   social:
-    facebook: uicardio
-    instagram: uicardio
-    twitter: uicardio
+    facebook: famaza-products
+    instagram: famaza-products
+    twitter: famaza-products
 
   scripts:
     googleanalytics:
