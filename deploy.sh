@@ -6,6 +6,12 @@ then
     exit 1;
 fi
 
+# Commit changes.
+msg="rebuild site `date`"
+if [ $# -eq 1 ]
+  then msg="$1"
+fi
+
 echo "Deleting old publication"
 rm -rf public
 mkdir public
@@ -14,7 +20,7 @@ rm -rf .git/worktrees/public/
 
 echo "Sync with remote gh-pages"
 git checkout gh-pages
-git pull origin gh-pages
+git pull
 git checkout master
 
 
@@ -31,10 +37,12 @@ echo "Generating site"
 hugo
 
 echo "Updating gh-pages branch"
-cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
+cd public && git add --all && git commit -m "$msg"
 
 # Push source and build repos.
 git push origin gh-pages
+
+git worktree remove public
 
 # Come Back up to the Project Root
 cd ..
