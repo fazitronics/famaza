@@ -17,6 +17,8 @@ mkdir public
 git worktree prune
 rm -rf .git/worktrees/public/
 
+git submodule update -f
+
 echo "Checking out gh-pages branch into public"
 git worktree add -B gh-pages public origin/gh-pages
 
@@ -36,6 +38,6 @@ git push origin gh-pages
 cd ..
 
 # Commit to master
-# git add .
-# git commit -m "$msg"
-# git push origin master
+ git add .
+ git commit -m "$msg"
+ git push origin master
