@@ -1,10 +1,5 @@
 #!/bin/sh
 
-//DIR=$(dirname "$0")
-
-//echo "Entering directory ${DIR}"
-//cd $DIR/..
-
 if [[ $(git status -s) ]]
 then
     echo "The working directory is dirty. Please commit any pending changes."
@@ -18,6 +13,11 @@ git worktree prune
 rm -rf .git/worktrees/public/
 
 git submodule update -f
+
+# Sync with remote gh-pages
+git checkout gh-pages
+git pull origin gh-pages
+git checkout master
 
 echo "Checking out gh-pages branch into public"
 git worktree add -B gh-pages public origin/gh-pages
